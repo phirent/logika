@@ -1,0 +1,190 @@
+{
+  "module": 7,
+  "titre": "Les sous-programmes",
+  "exercices": [
+    {
+      "id": "m07-e01",
+      "module": 7,
+      "ordre": 1,
+      "enonce": "Écrire une procédure qui affiche « Bonjour ». L'appeler 3 fois depuis le programme principal.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e02",
+      "module": 7,
+      "ordre": 2,
+      "enonce": "Écrire une fonction qui retourne le carré d'un nombre.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e03",
+      "module": 7,
+      "ordre": 3,
+      "enonce": "Écrire une fonction qui retourne le maximum de deux nombres.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e04",
+      "module": 7,
+      "ordre": 4,
+      "enonce": "Écrire une fonction qui retourne le maximum de trois nombres, en utilisant la fonction précédente.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e05",
+      "module": 7,
+      "ordre": 5,
+      "enonce": "Écrire une fonction booléenne qui dit si un entier est pair.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e06",
+      "module": 7,
+      "ordre": 6,
+      "enonce": "Écrire une fonction booléenne EstPremier, puis un programme qui l'utilise pour afficher les nombres premiers jusqu'à N.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e07",
+      "module": 7,
+      "ordre": 7,
+      "enonce": "Écrire une fonction Factorielle, puis un programme qui calcule C(n,p) = n! / (p! × (n-p)!).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e08",
+      "module": 7,
+      "ordre": 8,
+      "enonce": "Écrire une procédure Echanger(A, B) qui échange deux variables (passage par adresse).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e09",
+      "module": 7,
+      "ordre": 9,
+      "enonce": "Écrire une procédure qui retourne à la fois le quotient et le reste de la division de A par B.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e10",
+      "module": 7,
+      "ordre": 10,
+      "enonce": "Écrire une fonction PGCD, puis l'utiliser pour calculer le PPCM.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e11",
+      "module": 7,
+      "ordre": 11,
+      "enonce": "Écrire une fonction qui inverse un entier, puis une fonction qui dit si un entier est un palindrome en l'utilisant.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e12",
+      "module": 7,
+      "ordre": 12,
+      "enonce": "Écrire une procédure qui convertit un nombre de secondes en heures, minutes et secondes.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e13",
+      "module": 7,
+      "ordre": 13,
+      "enonce": "Que fait afficher ce programme ? Explique la différence entre passage par valeur et par adresse.",
+      "code": [
+        "Procédure P(A : entier ; var B : entier) ; Début A←A+1 ; B←B+1 ; Fin ;",
+        "Début X←1 ; Y←1 ; P(X, Y) ; Ecrire(X, Y) ; Fin."
+      ],
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e14",
+      "module": 7,
+      "ordre": 14,
+      "enonce": "Écrire une fonction Puissance(x, n) et l'utiliser pour écrire une fonction qui vérifie si un nombre est d'Armstrong.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m07-e15",
+      "module": 7,
+      "ordre": 15,
+      "enonce": "Écrire un programme avec un menu qui se répète : 1. Somme de 1 à N, 2. Factorielle, 3. Test de nombre premier, 4. Quitter. Chaque choix appelle un sous-programme.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

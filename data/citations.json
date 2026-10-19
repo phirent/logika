@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "citations": [
+    {
+      "id": "c01",
+      "texte": "On progresse en comprenant ce qu'on fait, pas seulement en allant vite."
+    },
+    {
+      "id": "c02",
+      "texte": "Une erreur n'est pas un échec : c'est une information sur ce qu'il reste à comprendre."
+    },
+    {
+      "id": "c03",
+      "texte": "Un algorithme se pense avant de s'écrire. Prends ton temps sur le papier."
+    },
+    {
+      "id": "c04",
+      "texte": "Chaque exercice terminé est une marche de plus, même quand elle semble petite."
+    },
+    {
+      "id": "c05",
+      "texte": "Bloqué ? Relis l'énoncé, puis demande-toi : qu'est-ce que je connais, et qu'est-ce qu'on me demande ?"
+    },
+    {
+      "id": "c06",
+      "texte": "Suivre les valeurs pas à pas, c'est voir ce que l'ordinateur voit."
+    },
+    {
+      "id": "c07",
+      "texte": "Comprendre une correction ne suffit pas : refais l'exercice sans la regarder."
+    },
+    {
+      "id": "c08",
+      "texte": "Un petit effort chaque jour vaut mieux qu'une longue séance une fois par mois."
+    },
+    {
+      "id": "c09",
+      "texte": "Tout programmeur a déjà été devant une page blanche. Écris la première ligne, la suite viendra."
+    },
+    {
+      "id": "c10",
+      "texte": "Quand tu ne sais pas par où commencer, commence par ce que tu sais faire à la main."
+    },
+    {
+      "id": "c11",
+      "texte": "Un gros problème n'est qu'une suite de petits problèmes."
+    },
+    {
+      "id": "c12",
+      "texte": "Tester un algorithme sur un exemple, c'est lui poser une question. Pose-lui-en plusieurs."
+    },
+    {
+      "id": "c13",
+      "texte": "Ce n'est pas grave de chercher longtemps : c'est en cherchant qu'on apprend à raisonner."
+    },
+    {
+      "id": "c14",
+      "texte": "La logique se muscle comme le reste : par la répétition et la variété."
+    },
+    {
+      "id": "c15",
+      "texte": "Si ça marche sur un exemple, ce n'est pas encore prouvé. Essaie un autre cas."
+    },
+    {
+      "id": "c16",
+      "texte": "Avancer à son rythme, c'est toujours avancer."
+    },
+    {
+      "id": "c17",
+      "texte": "Écrire sur papier ralentit un peu et clarifie beaucoup."
+    },
+    {
+      "id": "c18",
+      "texte": "Une bonne solution n'est pas forcément la seule : compare, ne copie pas."
+    },
+    {
+      "id": "c19",
+      "texte": "Ce que tu as compris aujourd'hui te servira dans l'exercice de demain."
+    },
+    {
+      "id": "c20",
+      "texte": "La difficulté d'un exercice est souvent dans l'énoncé : lis-le deux fois."
+    },
+    {
+      "id": "c21",
+      "texte": "Demande-toi toujours : quand est-ce que ça s'arrête ? C'est la question de toute boucle."
+    },
+    {
+      "id": "c22",
+      "texte": "Le premier réflexe d'un bon programmeur : vérifier avant de croire."
+    },
+    {
+      "id": "c23",
+      "texte": "Peu importe d'où tu pars. Ce qui compte, c'est de reprendre là où tu t'étais arrêté."
+    },
+    {
+      "id": "c24",
+      "texte": "Donner des noms clairs à tes variables, c'est te rendre service à toi-même, plus tard."
+    },
+    {
+      "id": "c25",
+      "texte": "Comprendre pourquoi ça marche vaut mieux que savoir que ça marche."
+    },
+    {
+      "id": "c26",
+      "texte": "Une erreur de syntaxe se corrige en une minute. Une erreur de raisonnement t'apprend quelque chose."
+    },
+    {
+      "id": "c27",
+      "texte": "Respire, relis, recommence : trois verbes qui débloquent beaucoup de situations."
+    },
+    {
+      "id": "c28",
+      "texte": "Un algorithme clair vaut mieux qu'un algorithme malin."
+    },
+    {
+      "id": "c29",
+      "texte": "Réussir un exercice une fois, c'est bien. Le réussir dans un autre contexte, c'est comprendre."
+    },
+    {
+      "id": "c30",
+      "texte": "Tu n'as pas besoin d'être rapide. Tu as besoin d'être régulier."
+    }
+  ]
+}

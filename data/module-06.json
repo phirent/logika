@@ -1,0 +1,246 @@
+{
+  "module": 6,
+  "titre": "Algorithmes sur les nombres",
+  "exercices": [
+    {
+      "id": "m06-e01",
+      "module": 6,
+      "ordre": 1,
+      "enonce": "Dire si B divise A (sans utiliser de fonction toute faite).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e02",
+      "module": 6,
+      "ordre": 2,
+      "enonce": "Afficher tous les diviseurs d'un entier N.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e03",
+      "module": 6,
+      "ordre": 3,
+      "enonce": "Compter le nombre de diviseurs de N.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e04",
+      "module": 6,
+      "ordre": 4,
+      "enonce": "Calculer la somme des diviseurs propres de N (tous sauf N lui-même).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e05",
+      "module": 6,
+      "ordre": 5,
+      "enonce": "Dire si N est un nombre parfait (égal à la somme de ses diviseurs propres, exemple : 6 = 1 + 2 + 3).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e06",
+      "module": 6,
+      "ordre": 6,
+      "enonce": "Dire si N est premier.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e07",
+      "module": 6,
+      "ordre": 7,
+      "enonce": "Afficher tous les nombres premiers jusqu'à N.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e08",
+      "module": 6,
+      "ordre": 8,
+      "enonce": "Calculer le PGCD de A et B par soustractions successives.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e09",
+      "module": 6,
+      "ordre": 9,
+      "enonce": "Calculer le PGCD de A et B par divisions successives (algorithme d'Euclide).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e10",
+      "module": 6,
+      "ordre": 10,
+      "enonce": "Calculer le PPCM de A et B.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e11",
+      "module": 6,
+      "ordre": 11,
+      "enonce": "Lire une fraction a/b, l'afficher sous forme irréductible.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e12",
+      "module": 6,
+      "ordre": 12,
+      "enonce": "Décomposer N en produit de facteurs premiers. Exemple : 60 = 2 × 2 × 3 × 5.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e13",
+      "module": 6,
+      "ordre": 13,
+      "enonce": "Dire si un nombre est un palindrome (121, 1331, …).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e14",
+      "module": 6,
+      "ordre": 14,
+      "enonce": "Dire si N est un nombre d'Armstrong (la somme des cubes de ses chiffres vaut N, exemple : 153 = 1³ + 5³ + 3³).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e15",
+      "module": 6,
+      "ordre": 15,
+      "enonce": "Convertir un nombre binaire (écrit comme un entier, ex. 10111010) en décimal.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e16",
+      "module": 6,
+      "ordre": 16,
+      "enonce": "Convertir un nombre décimal en binaire.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e17",
+      "module": 6,
+      "ordre": 17,
+      "enonce": "Convertir un nombre décimal en base b quelconque (2 à 16), en affichant A, B, C… pour 10, 11, 12…",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e18",
+      "module": 6,
+      "ordre": 18,
+      "enonce": "Calculer la partie entière de la racine carrée de N sans fonction toute faite.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e19",
+      "module": 6,
+      "ordre": 19,
+      "enonce": "Afficher tous les couples de nombres amicaux jusqu'à N (exemple : 220 et 284).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m06-e20",
+      "module": 6,
+      "ordre": 20,
+      "enonce": "Lire un nombre pair supérieur à 2, l'écrire comme somme de deux nombres premiers (conjecture de Goldbach).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

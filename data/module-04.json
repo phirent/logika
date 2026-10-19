@@ -1,0 +1,186 @@
+{
+  "module": 4,
+  "titre": "Tant que et Répéter",
+  "exercices": [
+    {
+      "id": "m04-e01",
+      "module": 4,
+      "ordre": 1,
+      "enonce": "Lire un nombre jusqu'à ce qu'il soit strictement positif (contrôle de saisie).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e02",
+      "module": 4,
+      "ordre": 2,
+      "enonce": "Lire une note jusqu'à ce qu'elle soit comprise entre 0 et 20.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e03",
+      "module": 4,
+      "ordre": 3,
+      "enonce": "Lire des nombres jusqu'à la saisie de 0, afficher leur somme.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e04",
+      "module": 4,
+      "ordre": 4,
+      "enonce": "Lire des nombres jusqu'à la saisie de 0, afficher combien de nombres ont été saisis.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e05",
+      "module": 4,
+      "ordre": 5,
+      "enonce": "Lire des caractères jusqu'à ‘*’, afficher combien de fois la lettre ‘A’ est apparue.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e06",
+      "module": 4,
+      "ordre": 6,
+      "enonce": "Un nombre secret est fixé dans le programme. L'utilisateur le devine, le programme répond « trop grand » ou « trop petit » et compte le nombre d'essais.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e07",
+      "module": 4,
+      "ordre": 7,
+      "enonce": "Mot de passe : l'utilisateur a 3 essais au maximum. Afficher « Accès autorisé » ou « Compte bloqué ».",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e08",
+      "module": 4,
+      "ordre": 8,
+      "enonce": "Lire N, dire combien de fois on peut le diviser par 2 (division entière) avant d'arriver à 1.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e09",
+      "module": 4,
+      "ordre": 9,
+      "enonce": "Lire un entier, afficher combien il a de chiffres.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e10",
+      "module": 4,
+      "ordre": 10,
+      "enonce": "Lire un entier, afficher la somme de ses chiffres.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e11",
+      "module": 4,
+      "ordre": 11,
+      "enonce": "Lire un entier, afficher son inverse. Exemple : 12345 donne 54321.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e12",
+      "module": 4,
+      "ordre": 12,
+      "enonce": "Calculer le quotient et le reste de A par B par soustractions successives (sans utiliser la division).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e13",
+      "module": 4,
+      "ordre": 13,
+      "enonce": "Calculer le produit de A par B par additions successives.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e14",
+      "module": 4,
+      "ordre": 14,
+      "enonce": "Trouver le plus petit entier n tel que 1 + 2 + … + n dépasse une valeur S donnée.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m04-e15",
+      "module": 4,
+      "ordre": 15,
+      "enonce": "Suite de Syracuse : partir de N, si N est pair le diviser par 2, sinon calculer 3N + 1, et recommencer jusqu'à arriver à 1. Afficher le nombre d'étapes.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

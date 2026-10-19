@@ -1,0 +1,126 @@
+{
+  "module": 12,
+  "titre": "Les fichiers",
+  "exercices": [
+    {
+      "id": "m12-e01",
+      "module": 12,
+      "ordre": 1,
+      "enonce": "Écrire N entiers saisis au clavier dans un fichier.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e02",
+      "module": 12,
+      "ordre": 2,
+      "enonce": "Lire un fichier d'entiers, afficher ses éléments, leur somme et leur moyenne.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e03",
+      "module": 12,
+      "ordre": 3,
+      "enonce": "Dans un fichier d'entiers, compter ses éléments et afficher le maximum.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e04",
+      "module": 12,
+      "ordre": 4,
+      "enonce": "Copier un fichier d'entiers dans un autre fichier.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e05",
+      "module": 12,
+      "ordre": 5,
+      "enonce": "Copier un fichier d'entiers dans un autre en ne gardant que les nombres positifs.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e06",
+      "module": 12,
+      "ordre": 6,
+      "enonce": "Dans un fichier de caractères, compter le nombre de fois que la lettre ‘A’ apparaît.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e07",
+      "module": 12,
+      "ordre": 7,
+      "enonce": "Ajouter un entier à la fin d'un fichier d'entiers.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e08",
+      "module": 12,
+      "ordre": 8,
+      "enonce": "Fichier d'étudiants (nom, note) : afficher ceux qui ont une note supérieure ou égale à 10.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e09",
+      "module": 12,
+      "ordre": 9,
+      "enonce": "Écrire une fonction qui dit si un fichier d'entiers est trié par ordre croissant.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m12-e10",
+      "module": 12,
+      "ordre": 10,
+      "enonce": "Fusionner deux fichiers d'entiers triés en un troisième fichier trié.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

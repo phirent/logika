@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "anecdotes": [
+    {
+      "id": "a01",
+      "module": null,
+      "texte": "Le mot « algorithme » vient du nom d'Al-Khwârizmî, un mathématicien qui travaillait à Bagdad au IXe siècle. Ses livres de calcul ont fait connaître en Europe les méthodes de calcul avec les chiffres que nous utilisons aujourd'hui."
+    },
+    {
+      "id": "a02",
+      "module": 0,
+      "texte": "En 1843, Ada Lovelace a publié des notes contenant une suite d'instructions pour calculer des nombres de Bernoulli sur la machine analytique de Charles Babbage, qui n'a jamais été construite. On considère souvent ce texte comme le premier programme destiné à une machine."
+    },
+    {
+      "id": "a03",
+      "module": 0,
+      "texte": "Le langage C a été créé au début des années 1970 par Dennis Ritchie, aux laboratoires Bell. Plus de cinquante ans plus tard, il est toujours très utilisé."
+    },
+    {
+      "id": "a04",
+      "module": 0,
+      "texte": "Le célèbre premier programme « Hello, World » a été popularisé par le livre The C Programming Language, de Kernighan et Ritchie, publié en 1978."
+    },
+    {
+      "id": "a05",
+      "module": 0,
+      "texte": "Le mot « ordinateur » a été proposé en 1955 par Jacques Perret, professeur de lettres, à la demande d'IBM France, pour remplacer le mot « calculateur »."
+    },
+    {
+      "id": "a06",
+      "module": null,
+      "texte": "En 1947, l'équipe de Grace Hopper a trouvé un papillon de nuit coincé dans un relais de l'ordinateur Harvard Mark II. L'insecte a été collé dans le journal de bord. Le mot « bug » existait déjà pour parler d'un défaut technique, mais cette histoire l'a rendu célèbre."
+    },
+    {
+      "id": "a07",
+      "module": 2,
+      "texte": "Une année est bissextile si elle est divisible par 4, sauf si elle est divisible par 100, sauf si elle est divisible par 400. L'année 1900 n'était donc pas bissextile, mais l'année 2000 l'était."
+    },
+    {
+      "id": "a08",
+      "module": 3,
+      "texte": "La suite de Fibonacci apparaît dans le Liber Abaci, livre publié en 1202 par Léonard de Pise, dit Fibonacci. Il la présente à travers un problème de lapins qui se reproduisent."
+    },
+    {
+      "id": "a09",
+      "module": 3,
+      "texte": "10! vaut 3 628 800. La factorielle grandit si vite que dès 13!, le résultat dépasse ce qu'un entier int de 32 bits peut contenir."
+    },
+    {
+      "id": "a10",
+      "module": 4,
+      "texte": "Un programme qui ne s'arrête jamais parce que la condition d'arrêt de sa boucle n'est jamais atteinte s'appelle une boucle infinie. Tous les programmeurs en ont déjà écrit une."
+    },
+    {
+      "id": "a11",
+      "module": 4,
+      "texte": "La suite de Syracuse a été proposée en 1937 par Lothar Collatz. Personne n'a encore prouvé qu'elle arrive toujours à 1, même si les ordinateurs l'ont testée sur des nombres gigantesques."
+    },
+    {
+      "id": "a12",
+      "module": 6,
+      "texte": "L'algorithme d'Euclide, pour calculer le PGCD, date d'environ 300 av. J.-C. C'est l'un des plus anciens algorithmes encore utilisés aujourd'hui."
+    },
+    {
+      "id": "a13",
+      "module": 6,
+      "texte": "Le crible d'Ératosthène, qui permet de trouver tous les nombres premiers jusqu'à N, a été imaginé il y a plus de 2 000 ans."
+    },
+    {
+      "id": "a14",
+      "module": 6,
+      "texte": "Les quatre premiers nombres parfaits (6, 28, 496 et 8 128) sont connus depuis l'Antiquité."
+    },
+    {
+      "id": "a15",
+      "module": 6,
+      "texte": "En 1742, Goldbach a écrit à Euler que tout nombre pair supérieur à 2 semblait être la somme de deux nombres premiers. Personne n'a encore réussi à le démontrer."
+    },
+    {
+      "id": "a16",
+      "module": 6,
+      "texte": "En 1703, Leibniz a décrit le système binaire, qui n'utilise que 0 et 1. C'est le système que les ordinateurs utilisent aujourd'hui pour tout représenter."
+    },
+    {
+      "id": "a17",
+      "module": 7,
+      "texte": "Écrire une fonction une fois et l'appeler cent fois évite de recopier le même code cent fois, et de corriger cent fois la même erreur."
+    },
+    {
+      "id": "a18",
+      "module": 8,
+      "texte": "Avec la recherche dichotomique, on trouve une valeur parmi un million de valeurs triées en 20 comparaisons au maximum."
+    },
+    {
+      "id": "a19",
+      "module": 8,
+      "texte": "Il existe des dizaines d'algorithmes de tri différents. Ils font tous la même chose, mais pas à la même vitesse."
+    },
+    {
+      "id": "a20",
+      "module": 9,
+      "texte": "Le chiffrement de César porte le nom de Jules César qui, selon l'historien Suétone, décalait les lettres de trois positions pour ses messages secrets."
+    },
+    {
+      "id": "a21",
+      "module": 9,
+      "texte": "Le mot « palindrome » vient du grec palin, « de nouveau », et dromos, « course » : un mot qu'on peut parcourir dans les deux sens."
+    },
+    {
+      "id": "a22",
+      "module": 10,
+      "texte": "Le triangle de Pascal était connu en Chine et en Perse bien avant Blaise Pascal, qui l'a étudié au XVIIe siècle."
+    },
+    {
+      "id": "a23",
+      "module": 12,
+      "texte": "Les fichiers permettent de conserver des données même quand l'ordinateur est éteint, alors que les variables disparaissent à la fin du programme."
+    },
+    {
+      "id": "a24",
+      "module": 13,
+      "texte": "Une fonction récursive doit toujours avoir un cas d'arrêt. Sans lui, elle s'appelle sans fin jusqu'à saturer la mémoire : c'est ce qu'on appelle un dépassement de pile."
+    },
+    {
+      "id": "a25",
+      "module": 13,
+      "texte": "Les tours de Hanoï ont été inventées en 1883 par le mathématicien français Édouard Lucas. Avec N disques, il faut au minimum 2^N − 1 déplacements, soit 1 023 pour 10 disques."
+    },
+    {
+      "id": "a26",
+      "module": 14,
+      "texte": "L'historique du bouton « Retour » d'un navigateur fonctionne comme une pile : la dernière page visitée est la première qu'on retrouve."
+    },
+    {
+      "id": "a27",
+      "module": 14,
+      "texte": "Une file d'attente de clients dans une banque est l'exemple parfait d'une file : premier arrivé, premier servi."
+    },
+    {
+      "id": "a28",
+      "module": 15,
+      "texte": "Les plus gros logiciels sont construits en assemblant des algorithmes simples, comme ceux que tu travailles ici."
+    }
+  ]
+}

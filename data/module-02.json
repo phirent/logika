@@ -1,0 +1,186 @@
+{
+  "module": 2,
+  "titre": "Les conditions",
+  "exercices": [
+    {
+      "id": "m02-e01",
+      "module": 2,
+      "ordre": 1,
+      "enonce": "Lire un nombre, dire s'il est positif, négatif ou nul.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e02",
+      "module": 2,
+      "ordre": 2,
+      "enonce": "Lire un entier, dire s'il est pair ou impair.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e03",
+      "module": 2,
+      "ordre": 3,
+      "enonce": "Lire deux nombres, afficher le plus grand.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e04",
+      "module": 2,
+      "ordre": 4,
+      "enonce": "Lire un âge, afficher « majeur » ou « mineur ».",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e05",
+      "module": 2,
+      "ordre": 5,
+      "enonce": "Lire un nombre, afficher sa valeur absolue sans utiliser de fonction toute faite.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e06",
+      "module": 2,
+      "ordre": 6,
+      "enonce": "Lire trois nombres, afficher le plus grand.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e07",
+      "module": 2,
+      "ordre": 7,
+      "enonce": "Lire trois nombres, les afficher dans l'ordre croissant.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e08",
+      "module": 2,
+      "ordre": 8,
+      "enonce": "Lire une moyenne sur 20 et afficher la mention : moins de 10 « Ajourné », de 10 à moins de 12 « Passable », de 12 à moins de 14 « Assez bien », de 14 à moins de 16 « Bien », 16 et plus « Très bien ».",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e09",
+      "module": 2,
+      "ordre": 9,
+      "enonce": "Résoudre l'équation ax + b = 0 (attention aux cas où a = 0).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e10",
+      "module": 2,
+      "ordre": 10,
+      "enonce": "Résoudre l'équation du second degré ax² + bx + c = 0 (trois cas selon le discriminant).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e11",
+      "module": 2,
+      "ordre": 11,
+      "enonce": "Lire une année, dire si elle est bissextile.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e12",
+      "module": 2,
+      "ordre": 12,
+      "enonce": "Lire un numéro de mois (et l'année si besoin), afficher le nombre de jours du mois. Utiliser la structure Cas.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e13",
+      "module": 2,
+      "ordre": 13,
+      "enonce": "Mini-calculatrice : lire deux nombres et un opérateur (+, -, *, /), afficher le résultat. Gérer la division par zéro.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e14",
+      "module": 2,
+      "ordre": 14,
+      "enonce": "Lire un jour, un mois et une année, dire si la date est valide.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m02-e15",
+      "module": 2,
+      "ordre": 15,
+      "enonce": "Lire les trois côtés d'un triangle. Dire si c'est un vrai triangle, puis s'il est équilatéral, isocèle, rectangle ou quelconque.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

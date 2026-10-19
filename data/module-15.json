@@ -1,0 +1,126 @@
+{
+  "module": 15,
+  "titre": "Problèmes de synthèse",
+  "exercices": [
+    {
+      "id": "m15-e01",
+      "module": 15,
+      "ordre": 1,
+      "enonce": "Gestion de notes : lire les notes de N étudiants dans un tableau, afficher la moyenne, le classement du meilleur au moins bon et la mention de chacun.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e02",
+      "module": 15,
+      "ordre": 2,
+      "enonce": "Distributeur de monnaie : pour un montant donné, afficher le nombre minimum de billets et pièces à rendre (200, 100, 50, 20, 10, 5, 1).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e03",
+      "module": 15,
+      "ordre": 3,
+      "enonce": "Jeu de devinette complet avec menu : choix du niveau (nombre à deviner entre 1 et 10, 100 ou 1000), nombre d'essais, possibilité de rejouer.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e04",
+      "module": 15,
+      "ordre": 4,
+      "enonce": "Matrice de températures (7 jours × 4 relevés par jour) : température moyenne de chaque jour, jour le plus chaud, jour le plus froid.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e05",
+      "module": 15,
+      "ordre": 5,
+      "enonce": "Fréquence des lettres : lire un texte et afficher combien de fois chaque lettre de l'alphabet apparaît.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e06",
+      "module": 15,
+      "ordre": 6,
+      "enonce": "Morpion : une matrice 3 × 3 contient des ‘X’, des ‘O’ ou des espaces. Dire s'il y a un gagnant.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e07",
+      "module": 15,
+      "ordre": 7,
+      "enonce": "Afficher tous les nombres parfaits et tous les nombres d'Armstrong jusqu'à N, en utilisant des sous-programmes.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e08",
+      "module": 15,
+      "ordre": 8,
+      "enonce": "Stock de magasin avec menu : ajouter un produit, vendre un produit (gérer le stock insuffisant), afficher les produits dont le stock est sous un seuil d'alerte.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e09",
+      "module": 15,
+      "ordre": 9,
+      "enonce": "Bibliothèque : enregistrements (titre, auteur, disponible) stockés dans un fichier, avec recherche par auteur et emprunt d'un livre.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m15-e10",
+      "module": 15,
+      "ordre": 10,
+      "enonce": "Sujet type examen : un fichier contient des étudiants (nom, moyenne). Construire une liste chaînée triée par moyenne décroissante, puis afficher les admis (moyenne supérieure ou égale à 10).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "module": 3,
+  "titre": "La boucle Pour",
+  "exercices": [
+    {
+      "id": "m03-e01",
+      "module": 3,
+      "ordre": 1,
+      "enonce": "Afficher les nombres de 1 à 10.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e02",
+      "module": 3,
+      "ordre": 2,
+      "enonce": "Afficher les nombres de 10 à 1.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e03",
+      "module": 3,
+      "ordre": 3,
+      "enonce": "Afficher les nombres pairs de 1 à 50.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e04",
+      "module": 3,
+      "ordre": 4,
+      "enonce": "Lire un entier n, afficher sa table de multiplication (de 1 à 10).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e05",
+      "module": 3,
+      "ordre": 5,
+      "enonce": "Lire N, calculer et afficher 1 + 2 + … + N.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e06",
+      "module": 3,
+      "ordre": 6,
+      "enonce": "Lire N, calculer 1² + 2² + … + N².",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e07",
+      "module": 3,
+      "ordre": 7,
+      "enonce": "Lire N, calculer N! (factorielle).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e08",
+      "module": 3,
+      "ordre": 8,
+      "enonce": "Lire X et N, calculer X^N sans utiliser d'opérateur puissance.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e09",
+      "module": 3,
+      "ordre": 9,
+      "enonce": "Lire N notes, afficher leur moyenne.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e10",
+      "module": 3,
+      "ordre": 10,
+      "enonce": "Lire N nombres, afficher combien sont strictement positifs.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e11",
+      "module": 3,
+      "ordre": 11,
+      "enonce": "Lire N nombres, afficher le minimum et le maximum.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e12",
+      "module": 3,
+      "ordre": 12,
+      "enonce": "Lire N, calculer 1 + 1/2 + 1/3 + … + 1/N.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e13",
+      "module": 3,
+      "ordre": 13,
+      "enonce": "Afficher les N premiers termes de la suite de Fibonacci (1, 1, 2, 3, 5, 8, …).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e14",
+      "module": 3,
+      "ordre": 14,
+      "enonce": "Lire N, afficher un triangle d'étoiles à N lignes : `*`, `**`, `***`, …",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m03-e15",
+      "module": 3,
+      "ordre": 15,
+      "enonce": "Lire N, afficher une pyramide d'étoiles centrée à N lignes.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

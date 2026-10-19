@@ -1,0 +1,302 @@
+{
+  "module": 0,
+  "titre": "Penser comme un ordinateur",
+  "exercices": [
+    {
+      "id": "m00-e01",
+      "module": 0,
+      "ordre": 1,
+      "enonce": "Pour chaque donnée, dis quel type de variable il faut (entier, réel, caractère, chaîne, booléen) : l'âge d'une personne, le prix d'un article, la première lettre d'un prénom, un nom de famille, « est-il majeur ? ».",
+      "indices": [
+        "Pose-toi la question pour chaque donnée : est-ce un nombre, un seul caractère, du texte, ou une réponse oui/non ?",
+        "Un nombre peut être entier (sans virgule) ou réel (avec une partie décimale possible). Pour un prix, demande-toi s'il peut avoir des centimes."
+      ],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": [
+          "Le type d'une variable dépend de la nature de la donnée qu'elle va contenir et des opérations qu'on veut faire dessus.",
+          "L'âge d'une personne : entier. On le compte en années entières, sans partie décimale.",
+          "Le prix d'un article : réel, car un prix peut avoir des décimales (par exemple 12,50). Si tous les prix sont des montants entiers, en FCFA par exemple, un entier suffit aussi. Les deux réponses se défendent : l'important est de savoir justifier ton choix.",
+          "La première lettre d'un prénom : caractère. Un caractère est un seul symbole, comme 'A'.",
+          "Un nom de famille : chaîne de caractères, car c'est une suite de plusieurs caractères.",
+          "« Est-il majeur ? » : booléen, car la réponse est soit vrai, soit faux.",
+          "En langage C, ces types s'écrivent : entier → int, réel → float, caractère → char, chaîne → tableau de char (par exemple char nom[50]), booléen → int (0 pour faux, une autre valeur pour vrai) ou bool avec stdbool.h.",
+          "Cette réflexion sert directement à écrire la partie Variables d'un algorithme. Déclarer une variable, c'est annoncer son nom et son type avant de l'utiliser, par exemple age : entier. Tu le feras dans tous les algorithmes à partir de l'exercice 5."
+        ]
+      }
+    },
+    {
+      "id": "m00-e02",
+      "module": 0,
+      "ordre": 2,
+      "enonce": "Quelle est la valeur finale de X et de Y ? `X←5 ; Y←X+2 ; X←Y*2`",
+      "indices": [
+        "Une affectation X←valeur calcule d'abord ce qui est à droite de la flèche, puis range le résultat dans la variable de gauche.",
+        "Exécute les instructions une par une, dans l'ordre, en notant la valeur de chaque variable après chaque instruction."
+      ],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": [
+          "On suit l'évolution des valeurs, ligne par ligne.",
+          "X←5 : X vaut 5. Y n'a pas encore de valeur.",
+          "Y←X+2 : on calcule 5+2 = 7 et on le range dans Y. Maintenant Y vaut 7 et X vaut toujours 5.",
+          "X←Y*2 : on calcule 7*2 = 14 et on le range dans X. L'ancienne valeur 5 est écrasée. X vaut 14.",
+          "Résultat final : X = 14 et Y = 7.",
+          "À retenir : Y n'a pas changé quand X a changé. Y←X+2 a rangé le résultat d'un calcul fait à un moment précis ; ce n'est pas un lien permanent entre X et Y."
+        ]
+      }
+    },
+    {
+      "id": "m00-e03",
+      "module": 0,
+      "ordre": 3,
+      "enonce": "Quelle est la valeur finale de X ? `X←3 ; X←X+1 ; X←X*X`",
+      "indices": [
+        "Une même variable peut apparaître des deux côtés de la flèche. Calcule d'abord la partie droite avec l'ancienne valeur."
+      ],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": [
+          "X←3 : X vaut 3.",
+          "X←X+1 : on lit l'ancienne valeur de X (3), on calcule 3+1 = 4, puis on range 4 dans X. X vaut 4.",
+          "X←X*X : on lit X (4), on calcule 4*4 = 16, puis on range 16 dans X. X vaut 16.",
+          "Résultat final : X = 16.",
+          "À retenir : X←X+1 n'est pas une équation (X ne peut jamais être égal à X+1). C'est une instruction : on calcule avec l'ancienne valeur, puis on la remplace par la nouvelle. Tu retrouveras cette forme partout dans les boucles."
+        ]
+      }
+    },
+    {
+      "id": "m00-e04",
+      "module": 0,
+      "ordre": 4,
+      "enonce": "Quelles sont les valeurs finales de A et de B ? `A←10 ; B←4 ; A←B ; B←A`. Est-ce que A et B ont été échangés ?",
+      "indices": [
+        "Note la valeur de A et de B après chaque ligne.",
+        "Quand on écrase une variable, son ancienne valeur disparaît, sauf si on l'a sauvegardée ailleurs."
+      ],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": [
+          "A←10 : A vaut 10.",
+          "B←4 : B vaut 4.",
+          "A←B : A reçoit une copie de la valeur de B. A vaut 4. L'ancienne valeur 10 est perdue.",
+          "B←A : B reçoit la valeur de A, qui vaut maintenant 4. B vaut 4.",
+          "Résultat final : A = 4 et B = 4.",
+          "Non, A et B n'ont pas été échangés : les deux valent 4 et le 10 a disparu. Pour échanger deux valeurs, il faut une troisième variable qui garde l'une des valeurs pendant l'opération. Tu le feras au module 1."
+        ]
+      }
+    },
+    {
+      "id": "m00-e05",
+      "module": 0,
+      "ordre": 5,
+      "enonce": "Écrire un algorithme qui affiche « Bonjour » suivi de ton prénom.",
+      "indices": [
+        "Afficher peut recevoir du texte fixe et le contenu d'une variable, séparés par une virgule.",
+        "Le texte fixe se met entre guillemets. Le nom d'une variable se met sans guillemets."
+      ],
+      "correction": {
+        "pseudocode": [
+          "Variables",
+          "  prenom : chaîne",
+          "Début",
+          "  prenom ← \"Awa\"",
+          "  Afficher(\"Bonjour \", prenom)",
+          "Fin"
+        ],
+        "c": [
+          "#include <stdio.h>",
+          "",
+          "int main(void) {",
+          "    char prenom[] = \"Awa\";",
+          "    printf(\"Bonjour %s\\n\", prenom);",
+          "    return 0;",
+          "}"
+        ],
+        "explication": [
+          "La partie Variables, placée avant Début, annonce les variables utilisées et leur type : prenom : chaîne signifie que prenom contiendra du texte. On déclare toujours une variable avant de l'utiliser.",
+          "On range d'abord le prénom dans une variable, puis on l'affiche après le mot « Bonjour ». Remplace « Awa » par ton propre prénom.",
+          "Le texte entre guillemets est affiché tel quel. prenom, écrit sans guillemets, est remplacé par sa valeur.",
+          "Attention à l'espace après « Bonjour » : sans elle, l'affichage serait BonjourAwa.",
+          "Écrire directement Afficher(\"Bonjour Awa\") donnerait le même résultat, mais on perd l'intérêt de la variable : si le prénom change, il faut modifier le texte.",
+          "En C, %s indique où printf doit placer la chaîne, et \\n fait passer à la ligne suivante."
+        ]
+      }
+    },
+    {
+      "id": "m00-e06",
+      "module": 0,
+      "ordre": 6,
+      "enonce": "Écrire un algorithme qui lit un nombre et l'affiche.",
+      "indices": [
+        "Il faut d'abord ranger la valeur que l'utilisateur tape quelque part : dans une variable.",
+        "Lire range une valeur dans une variable, Afficher la montre. On ne peut pas afficher avant d'avoir lu."
+      ],
+      "correction": {
+        "pseudocode": [
+          "Variables",
+          "  nombre : réel",
+          "Début",
+          "  Afficher(\"Donne un nombre : \")",
+          "  Lire(nombre)",
+          "  Afficher(\"Tu as saisi : \", nombre)",
+          "Fin"
+        ],
+        "c": [
+          "#include <stdio.h>",
+          "",
+          "int main(void) {",
+          "    float nombre;",
+          "    printf(\"Donne un nombre : \");",
+          "    scanf(\"%f\", &nombre);",
+          "    printf(\"Tu as saisi : %g\\n\", nombre);",
+          "    return 0;",
+          "}"
+        ],
+        "explication": [
+          "On déclare nombre comme un réel, et pas comme un entier, pour accepter aussi les valeurs avec une partie décimale comme 7,5.",
+          "Trois étapes dans l'ordre : demander, lire, afficher. Le premier Afficher n'est pas obligatoire, mais sans lui l'utilisateur ne sait pas ce qu'on attend de lui.",
+          "Lire(nombre) range la valeur tapée dans la variable nombre. C'est ce qui permet de la réutiliser ensuite.",
+          "En C, la déclaration existe aussi : float nombre; se place au début de main, avant l'utilisation. Dans scanf, le & devant nombre indique à quel endroit de la mémoire ranger la valeur lue."
+        ]
+      }
+    },
+    {
+      "id": "m00-e07",
+      "module": 0,
+      "ordre": 7,
+      "enonce": "Écrire un algorithme qui lit deux nombres et affiche leur somme.",
+      "indices": [
+        "Il te faut trois valeurs en mémoire : deux qu'on lit et une qu'on calcule.",
+        "Lis les deux nombres d'abord, calcule la somme ensuite, affiche en dernier."
+      ],
+      "correction": {
+        "pseudocode": [
+          "Variables",
+          "  a, b, somme : réel",
+          "Début",
+          "  Afficher(\"Premier nombre : \")",
+          "  Lire(a)",
+          "  Afficher(\"Deuxième nombre : \")",
+          "  Lire(b)",
+          "  somme ← a + b",
+          "  Afficher(\"La somme est : \", somme)",
+          "Fin"
+        ],
+        "c": [
+          "#include <stdio.h>",
+          "",
+          "int main(void) {",
+          "    float a, b, somme;",
+          "    printf(\"Premier nombre : \");",
+          "    scanf(\"%f\", &a);",
+          "    printf(\"Deuxième nombre : \");",
+          "    scanf(\"%f\", &b);",
+          "    somme = a + b;",
+          "    printf(\"La somme est : %g\\n\", somme);",
+          "    return 0;",
+          "}"
+        ],
+        "explication": [
+          "Les données sont a et b, le résultat est la somme, et le traitement est l'addition.",
+          "Les trois variables ont le même type, on peut donc les déclarer sur une seule ligne : a, b, somme : réel. Le résultat d'une addition de deux réels est un réel, donc somme est aussi un réel.",
+          "On aurait pu écrire Afficher(a + b) directement. Ranger le résultat dans une variable est plus lisible, et permet de le réutiliser plus loin dans l'algorithme.",
+          "Si on affichait la somme avant d'avoir lu b, on obtiendrait un résultat faux : l'ordre des instructions change le résultat.",
+          "En C, l'affectation s'écrit avec = (somme = a + b;), à la place de la flèche ←."
+        ]
+      }
+    },
+    {
+      "id": "m00-e08",
+      "module": 0,
+      "ordre": 8,
+      "enonce": "Écrire un algorithme qui lit un nom et un âge, puis affiche : « Tu t'appelles … et tu as … ans ».",
+      "indices": [
+        "Il te faut deux variables de types différents : une pour le texte (le nom), une pour le nombre (l'âge).",
+        "Dans Afficher, tu peux mélanger plusieurs morceaux de texte fixe et plusieurs variables, séparés par des virgules."
+      ],
+      "correction": {
+        "pseudocode": [
+          "Variables",
+          "  nom : chaîne",
+          "  age : entier",
+          "Début",
+          "  Afficher(\"Ton nom : \")",
+          "  Lire(nom)",
+          "  Afficher(\"Ton âge : \")",
+          "  Lire(age)",
+          "  Afficher(\"Tu t'appelles \", nom, \" et tu as \", age, \" ans\")",
+          "Fin"
+        ],
+        "c": [
+          "#include <stdio.h>",
+          "",
+          "int main(void) {",
+          "    char nom[50];",
+          "    int age;",
+          "    printf(\"Ton nom : \");",
+          "    scanf(\"%49s\", nom);",
+          "    printf(\"Ton âge : \");",
+          "    scanf(\"%d\", &age);",
+          "    printf(\"Tu t'appelles %s et tu as %d ans\\n\", nom, age);",
+          "    return 0;",
+          "}"
+        ],
+        "explication": [
+          "Il y a deux déclarations, car il y a deux types différents : nom : chaîne et age : entier.",
+          "On ne range pas du texte dans une variable de nombre, ni l'inverse : c'est le type déclaré qui l'interdit.",
+          "Dans le message final, les parties entre guillemets sont du texte fixe et nom, age sont remplacés par leurs valeurs. Surveille les espaces autour de « et tu as » pour que l'affichage soit lisible.",
+          "En C, %s sert à afficher une chaîne et %d un entier. Il n'y a pas de & devant nom dans scanf, car un tableau de caractères désigne déjà son emplacement en mémoire. Ce scanf(\"%49s\") s'arrête au premier espace : il lit donc un seul mot."
+        ]
+      }
+    },
+    {
+      "id": "m00-e09",
+      "module": 0,
+      "ordre": 9,
+      "enonce": "Fais le tableau de trace (valeur de A, B, C après chaque ligne) : `A←2 ; B←3 ; C←A+B ; A←C*B ; B←A-C`",
+      "indices": [
+        "Fais un tableau avec une colonne par variable et une ligne par instruction.",
+        "À chaque ligne, une seule variable change : recopie les autres telles quelles."
+      ],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": [
+          "Tableau de trace, instruction par instruction :",
+          "Après A←2 : A = 2 ; B et C n'ont pas encore de valeur.",
+          "Après B←3 : A = 2 ; B = 3 ; C n'a pas encore de valeur.",
+          "Après C←A+B : A = 2 ; B = 3 ; C = 5 (2 + 3).",
+          "Après A←C*B : A = 15 (5 × 3) ; B = 3 ; C = 5.",
+          "Après B←A-C : A = 15 ; B = 10 (15 − 5) ; C = 5.",
+          "Résultat final : A = 15, B = 10, C = 5.",
+          "À retenir : B←A-C utilise la nouvelle valeur de A (15), pas l'ancienne (2). Chaque instruction travaille avec les valeurs que les variables ont à cet instant précis."
+        ]
+      }
+    },
+    {
+      "id": "m00-e10",
+      "module": 0,
+      "ordre": 10,
+      "enonce": "Explique pourquoi chacune de ces instructions est fausse : `5←X`, `X+1←Y`, `Lire(3)`.",
+      "indices": [
+        "Demande-toi ce qu'il peut y avoir à gauche d'une flèche : dans quel endroit de la mémoire range-t-on la valeur ?",
+        "Pour Lire, demande-toi : où le programme va-t-il ranger ce que l'utilisateur tape ?"
+      ],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": [
+          "5←X est fausse : à gauche de la flèche, il faut une variable, c'est-à-dire un endroit où ranger une valeur. 5 est une valeur, pas un endroit. On voulait écrire X←5.",
+          "X+1←Y est fausse : X+1 est un calcul, pas une variable. On ne peut pas ranger quelque chose dans un calcul. On voulait écrire Y←X+1.",
+          "Lire(3) est fausse : Lire doit savoir où ranger la valeur tapée, donc il lui faut une variable. 3 ne peut pas recevoir une valeur. On voulait écrire Lire(X).",
+          "À retenir : à gauche de la flèche et dans Lire, il y a toujours une variable. À droite de la flèche, on peut avoir une valeur, une variable ou un calcul."
+        ]
+      }
+    }
+  ]
+}

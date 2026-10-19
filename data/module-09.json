@@ -1,0 +1,186 @@
+{
+  "module": 9,
+  "titre": "Les chaînes de caractères",
+  "exercices": [
+    {
+      "id": "m09-e01",
+      "module": 9,
+      "ordre": 1,
+      "enonce": "Lire une chaîne, afficher sa longueur en la parcourant caractère par caractère.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e02",
+      "module": 9,
+      "ordre": 2,
+      "enonce": "Lire une chaîne et un caractère, compter combien de fois ce caractère apparaît.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e03",
+      "module": 9,
+      "ordre": 3,
+      "enonce": "Lire une chaîne, compter ses voyelles.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e04",
+      "module": 9,
+      "ordre": 4,
+      "enonce": "Lire une chaîne, l'afficher à l'envers.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e05",
+      "module": 9,
+      "ordre": 5,
+      "enonce": "Lire un mot, dire s'il est un palindrome (« radar », « kayak »).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e06",
+      "module": 9,
+      "ordre": 6,
+      "enonce": "Transformer une chaîne en majuscules, sans fonction toute faite (utiliser les codes des caractères).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e07",
+      "module": 9,
+      "ordre": 7,
+      "enonce": "Lire une phrase, compter ses mots (attention aux espaces multiples).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e08",
+      "module": 9,
+      "ordre": 8,
+      "enonce": "Lire une chaîne, supprimer tous ses espaces.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e09",
+      "module": 9,
+      "ordre": 9,
+      "enonce": "Lire une phrase, mettre la première lettre de chaque mot en majuscule.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e10",
+      "module": 9,
+      "ordre": 10,
+      "enonce": "Lire deux chaînes, dire si la deuxième est contenue dans la première (recherche de sous-chaîne).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e11",
+      "module": 9,
+      "ordre": 11,
+      "enonce": "Lire deux mots, dire s'ils sont des anagrammes (« chien » et « niche »).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e12",
+      "module": 9,
+      "ordre": 12,
+      "enonce": "Chiffrement de César : décaler chaque lettre de k positions dans l'alphabet (A devient D avec k = 3).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e13",
+      "module": 9,
+      "ordre": 13,
+      "enonce": "Compresser une chaîne : « aaabbc » devient « a3b2c1 ».",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e14",
+      "module": 9,
+      "ordre": 14,
+      "enonce": "Convertir une chaîne de chiffres (« 1234 ») en entier (1234), sans fonction toute faite.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m09-e15",
+      "module": 9,
+      "ordre": 15,
+      "enonce": "Dire si une phrase est un palindrome en ignorant les espaces et la différence majuscule/minuscule.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "module": 10,
+  "titre": "Les matrices",
+  "exercices": [
+    {
+      "id": "m10-e01",
+      "module": 10,
+      "ordre": 1,
+      "enonce": "Lire une matrice N × M d'entiers, puis l'afficher ligne par ligne.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e02",
+      "module": 10,
+      "ordre": 2,
+      "enonce": "Calculer la somme de tous les éléments d'une matrice.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e03",
+      "module": 10,
+      "ordre": 3,
+      "enonce": "Trouver le maximum d'une matrice et sa position (ligne, colonne).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e04",
+      "module": 10,
+      "ordre": 4,
+      "enonce": "Calculer la somme de chaque ligne.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e05",
+      "module": 10,
+      "ordre": 5,
+      "enonce": "Calculer la somme de chaque colonne.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e06",
+      "module": 10,
+      "ordre": 6,
+      "enonce": "Calculer la somme de la diagonale principale d'une matrice carrée.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e07",
+      "module": 10,
+      "ordre": 7,
+      "enonce": "Calculer la somme de la diagonale secondaire d'une matrice carrée.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e08",
+      "module": 10,
+      "ordre": 8,
+      "enonce": "Dire si une matrice carrée est symétrique.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e09",
+      "module": 10,
+      "ordre": 9,
+      "enonce": "Calculer la transposée d'une matrice.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e10",
+      "module": 10,
+      "ordre": 10,
+      "enonce": "Calculer la somme de deux matrices de mêmes dimensions.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e11",
+      "module": 10,
+      "ordre": 11,
+      "enonce": "Dire si une matrice carrée est la matrice identité.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e12",
+      "module": 10,
+      "ordre": 12,
+      "enonce": "Dire si une matrice carrée est triangulaire supérieure (tout est nul sous la diagonale).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e13",
+      "module": 10,
+      "ordre": 13,
+      "enonce": "Calculer le produit de deux matrices A (N × M) et B (M × P).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e14",
+      "module": 10,
+      "ordre": 14,
+      "enonce": "Générer et afficher le triangle de Pascal sur N lignes.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m10-e15",
+      "module": 10,
+      "ordre": 15,
+      "enonce": "Dire si une matrice carrée est un carré magique (toutes les lignes, colonnes et les deux diagonales ont la même somme).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

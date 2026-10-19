@@ -1,0 +1,340 @@
+/* ===== Charte LOGIKA : les 4 couleurs, déclarées une seule fois ===== */
+:root {
+  --ivoire: #F5F3EB;
+  --sombre: #171914;
+  --vert: #72952E;
+  --vert-pale: #E8E9DC;
+
+  --police: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --police-code: ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace;
+
+  --marge: 1.25rem;
+  --largeur: 40rem;
+}
+
+/* ===== Base ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--ivoire);
+  color: var(--sombre);
+  font-family: var(--police);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--vert);
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.2em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--sombre);
+  outline-offset: 2px;
+}
+
+/* ===== Titres et texte ===== */
+h1, h2, h3 {
+  margin: 0 0 0.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.0625rem; }
+
+p {
+  margin: 0 0 1rem;
+}
+
+.etiquette {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.discret {
+  opacity: 0.7;
+}
+
+/* ===== En-tête et logo ===== */
+.entete {
+  max-width: var(--largeur);
+  margin: 0 auto;
+  padding: 1.25rem var(--marge) 0.5rem;
+}
+
+.logo {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.logo .point {
+  color: var(--vert);
+}
+
+/* ===== Contenu principal : une seule colonne ===== */
+main {
+  max-width: var(--largeur);
+  margin: 0 auto;
+  padding: 1rem var(--marge) 6rem; /* le bas laisse la place à la navigation */
+}
+
+/* ===== Navigation fixée en bas ===== */
+.navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background: var(--vert-pale);
+}
+
+.navigation a {
+  flex: 1;
+  max-width: 13rem;
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navigation a[aria-current="page"] {
+  font-weight: 700;
+  box-shadow: inset 0 3px 0 var(--vert);
+}
+
+/* ===== Boutons ===== */
+.bouton {
+  display: inline-block;
+  min-height: 2.75rem;
+  padding: 0.7rem 1.25rem;
+  background: var(--vert);
+  color: var(--sombre);
+  border: 2px solid var(--vert);
+  border-radius: 0.25rem;
+  font: inherit;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bouton-secondaire {
+  background: transparent;
+  border-color: var(--sombre);
+}
+
+/* ===== Bloc de fond pâle (citation, anecdote, message) ===== */
+.bloc {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--vert-pale);
+  border-radius: 0.25rem;
+}
+
+/* ===== Code : l'indentation doit être conservée ===== */
+pre {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  background: var(--vert-pale);
+  border-radius: 0.25rem;
+  overflow-x: auto;
+  white-space: pre;
+  tab-size: 4;
+  font-family: var(--police-code);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+pre code {
+  font: inherit;
+}
+
+/* ===== Liste des exercices ===== */
+
+/* Un module : le bloc repliable, ou la simple ligne s'il est verrouillé */
+.module {
+  margin: 0;
+  border-top: 2px solid var(--vert-pale);
+}
+
+.module summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  min-height: 3.25rem;
+  padding: 0.75rem 0;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.module summary::-webkit-details-marker {
+  display: none;
+}
+
+.module summary::after {
+  content: "+";
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.module[open] summary::after {
+  content: "−";
+}
+
+.module-ferme {
+  padding: 0.9rem 0;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+/* Les exercices d'un module */
+.module ul {
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.exercice {
+  border-top: 1px solid var(--vert-pale);
+}
+
+.exercice a {
+  display: block;
+  min-height: 2.75rem;
+  padding: 0.7rem 0.75rem;
+  text-decoration: none;
+}
+
+.exercice.termine {
+  border-left: 4px solid var(--vert);
+}
+
+.exercice.a-faire a {
+  font-weight: 700;
+}
+
+.exercice.ferme {
+  padding: 0.7rem 0.75rem;
+  opacity: 0.6;
+}
+
+
+/* ===== Blocs ===== */
+.bloc p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== Accueil ===== */
+.bloc h2 {
+  margin-bottom: 0.25rem;
+}
+
+.bloc .bouton {
+  margin-top: 0.5rem;
+}
+
+/* ===== Progression ===== */
+.grand-nombre {
+  margin: 0 0 1.5rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.grand-nombre span {
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.liste-modules {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.liste-modules li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--vert-pale);
+}
+
+/* ===== Page d'un exercice ===== */
+.enonce {
+  font-size: 1.125rem;
+}
+
+.code-ligne {
+  padding: 0.1em 0.35em;
+  background: var(--vert-pale);
+  border-radius: 0.2rem;
+  font-family: var(--police-code);
+  font-size: 0.9em;
+}
+
+.indices {
+  margin: 0 0 1.5rem;
+}
+
+.liste-indices {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.liste-indices .bloc {
+  margin: 0 0 0.75rem;
+}
+
+.actions,
+.choix {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.actions .bouton,
+.choix .bouton {
+  display: block;
+  width: 100%;
+}
+
+.bouton-choix {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  text-align: left;
+}
+
+.bouton-choix span {
+  font-weight: 400;
+}

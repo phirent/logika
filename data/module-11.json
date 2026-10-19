@@ -1,0 +1,126 @@
+{
+  "module": 11,
+  "titre": "Les enregistrements",
+  "exercices": [
+    {
+      "id": "m11-e01",
+      "module": 11,
+      "ordre": 1,
+      "enonce": "Définir un type ETUDIANT (nom, prénom, note). Lire un étudiant et l'afficher.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e02",
+      "module": 11,
+      "ordre": 2,
+      "enonce": "Définir un type DATE (jour, mois, année). Écrire une fonction qui dit laquelle de deux dates est la plus récente.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e03",
+      "module": 11,
+      "ordre": 3,
+      "enonce": "Définir un type POINT (x, y). Écrire une fonction qui calcule la distance entre deux points.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e04",
+      "module": 11,
+      "ordre": 4,
+      "enonce": "Définir un type TEMPS (heure, minute, seconde). Écrire une procédure qui additionne deux durées.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e05",
+      "module": 11,
+      "ordre": 5,
+      "enonce": "Définir un type COMPLEXE (partie réelle, partie imaginaire). Écrire des fonctions pour la somme et le produit.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e06",
+      "module": 11,
+      "ordre": 6,
+      "enonce": "Définir un type FRACTION (numérateur, dénominateur). Écrire une fonction pour la somme de deux fractions et une procédure pour la simplifier.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e07",
+      "module": 11,
+      "ordre": 7,
+      "enonce": "Remplir un tableau de N étudiants. Afficher la moyenne générale et le nom de l'étudiant qui a la meilleure note.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e08",
+      "module": 11,
+      "ordre": 8,
+      "enonce": "Trier ce tableau d'étudiants par note décroissante.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e09",
+      "module": 11,
+      "ordre": 9,
+      "enonce": "Gestion de produits (code, nom, prix, quantité) dans un tableau : afficher le produit le plus cher et la valeur totale du stock.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m11-e10",
+      "module": 11,
+      "ordre": 10,
+      "enonce": "Répertoire téléphonique (nom, numéro) dans un tableau : recherche par nom, ajout d'un contact, suppression d'un contact.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

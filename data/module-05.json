@@ -1,0 +1,266 @@
+{
+  "module": 5,
+  "titre": "Les schémas de boucle",
+  "exercices": [
+    {
+      "id": "m05-e01",
+      "module": 5,
+      "ordre": 1,
+      "groupe": "Compteur",
+      "enonce": "Lire N nombres, compter combien sont pairs.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e02",
+      "module": 5,
+      "ordre": 2,
+      "groupe": "Compteur",
+      "enonce": "Lire N nombres, compter combien sont compris entre 10 et 20 (inclus).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e03",
+      "module": 5,
+      "ordre": 3,
+      "groupe": "Compteur",
+      "enonce": "Lire des caractères jusqu'à ‘.’, compter les voyelles.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e04",
+      "module": 5,
+      "ordre": 4,
+      "groupe": "Accumulateur",
+      "enonce": "Lire N nombres, calculer la somme des positifs seulement.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e05",
+      "module": 5,
+      "ordre": 5,
+      "groupe": "Accumulateur",
+      "enonce": "Lire N nombres, calculer le produit des non nuls.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e06",
+      "module": 5,
+      "ordre": 6,
+      "groupe": "Accumulateur",
+      "enonce": "Lire des nombres jusqu'à -1 (qui n'est pas compté), afficher leur moyenne.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e07",
+      "module": 5,
+      "ordre": 7,
+      "groupe": "Accumulateur",
+      "enonce": "Lire N nombres, afficher séparément la somme des pairs et la somme des impairs.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e08",
+      "module": 5,
+      "ordre": 8,
+      "groupe": "Minimum et maximum",
+      "enonce": "Lire N nombres, afficher le minimum et le maximum.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e09",
+      "module": 5,
+      "ordre": 9,
+      "groupe": "Minimum et maximum",
+      "enonce": "Lire N nombres, afficher le maximum et son rang (sa position dans la saisie).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e10",
+      "module": 5,
+      "ordre": 10,
+      "groupe": "Minimum et maximum",
+      "enonce": "Lire N nombres, afficher le deuxième plus grand.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e11",
+      "module": 5,
+      "ordre": 11,
+      "groupe": "Drapeau (booléen)",
+      "enonce": "Lire N nombres, dire s'ils sont tous positifs.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e12",
+      "module": 5,
+      "ordre": 12,
+      "groupe": "Drapeau (booléen)",
+      "enonce": "Lire N nombres, dire s'il existe au moins un multiple de 7.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e13",
+      "module": 5,
+      "ordre": 13,
+      "groupe": "Drapeau (booléen)",
+      "enonce": "Lire N nombres, dire s'ils sont tous égaux.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e14",
+      "module": 5,
+      "ordre": 14,
+      "groupe": "Drapeau (booléen)",
+      "enonce": "Lire N nombres, dire s'ils sont en ordre croissant.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e15",
+      "module": 5,
+      "ordre": 15,
+      "groupe": "Sentinelle",
+      "enonce": "Lire des températures jusqu'à la saisie de 999, afficher la plus haute et la plus basse.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e16",
+      "module": 5,
+      "ordre": 16,
+      "groupe": "Sentinelle",
+      "enonce": "Lire une phrase terminée par ‘#’, afficher son nombre de mots (les mots sont séparés par des espaces).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e17",
+      "module": 5,
+      "ordre": 17,
+      "groupe": "Schémas combinés",
+      "enonce": "Lire N notes sur 20, afficher la moyenne, la meilleure, la pire, le nombre de notes supérieures ou égales à 10 et le pourcentage de réussite.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e18",
+      "module": 5,
+      "ordre": 18,
+      "groupe": "Schémas combinés",
+      "enonce": "Lire N nombres, afficher le plus long enchaînement de valeurs égales consécutives.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e19",
+      "module": 5,
+      "ordre": 19,
+      "groupe": "Schémas combinés",
+      "enonce": "Lire N nombres, afficher la longueur de la plus longue suite de nombres positifs consécutifs.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m05-e20",
+      "module": 5,
+      "ordre": 20,
+      "groupe": "Schémas combinés",
+      "enonce": "Lire N nombres, dire si la suite est strictement croissante, strictement décroissante, ou ni l'une ni l'autre.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

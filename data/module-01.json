@@ -1,0 +1,150 @@
+{
+  "module": 1,
+  "titre": "Calculs de base",
+  "exercices": [
+    {
+      "id": "m01-e01",
+      "module": 1,
+      "ordre": 1,
+      "enonce": "Lire la longueur et la largeur d'un rectangle, afficher son périmètre et son aire.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e02",
+      "module": 1,
+      "ordre": 2,
+      "enonce": "Lire le rayon d'un cercle, afficher son périmètre et son aire (π = 3.14).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e03",
+      "module": 1,
+      "ordre": 3,
+      "enonce": "Convertir une température de Celsius en Fahrenheit : F = C × 9/5 + 32.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e04",
+      "module": 1,
+      "ordre": 4,
+      "enonce": "Lire un prix hors taxe, afficher le prix TTC avec une TVA de 19 %.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e05",
+      "module": 1,
+      "ordre": 5,
+      "enonce": "Lire un prix et afficher le nouveau prix après une remise de 15 %.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e06",
+      "module": 1,
+      "ordre": 6,
+      "enonce": "Échanger les valeurs de deux variables A et B en utilisant une troisième variable.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e07",
+      "module": 1,
+      "ordre": 7,
+      "enonce": "Lire deux entiers A et B, afficher le quotient et le reste de la division entière de A par B (avec DIV et MOD).",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e08",
+      "module": 1,
+      "ordre": 8,
+      "enonce": "Lire un nombre de secondes, l'afficher en heures, minutes et secondes. Exemple : 7837 s = 2 h 10 min 37 s.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e09",
+      "module": 1,
+      "ordre": 9,
+      "enonce": "Lire trois notes de coefficients 1, 2 et 3, afficher la moyenne pondérée.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e10",
+      "module": 1,
+      "ordre": 10,
+      "enonce": "Lire un nombre à deux chiffres, afficher son chiffre des dizaines et son chiffre des unités.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e11",
+      "module": 1,
+      "ordre": 11,
+      "enonce": "Lire un nombre à trois chiffres, afficher son inverse. Exemple : 123 donne 321.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    },
+    {
+      "id": "m01-e12",
+      "module": 1,
+      "ordre": 12,
+      "enonce": "Échanger les valeurs de deux variables entières A et B sans utiliser de troisième variable.",
+      "indices": [],
+      "correction": {
+        "pseudocode": null,
+        "c": null,
+        "explication": null
+      }
+    }
+  ]
+}

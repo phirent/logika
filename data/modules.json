@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "modules": [
+    {
+      "module": 0,
+      "titre": "Penser comme un ordinateur",
+      "fichier": "module-00.json",
+      "nombreExercices": 10
+    },
+    {
+      "module": 1,
+      "titre": "Calculs de base",
+      "fichier": "module-01.json",
+      "nombreExercices": 12
+    },
+    {
+      "module": 2,
+      "titre": "Les conditions",
+      "fichier": "module-02.json",
+      "nombreExercices": 15
+    },
+    {
+      "module": 3,
+      "titre": "La boucle Pour",
+      "fichier": "module-03.json",
+      "nombreExercices": 15
+    },
+    {
+      "module": 4,
+      "titre": "Tant que et Répéter",
+      "fichier": "module-04.json",
+      "nombreExercices": 15
+    },
+    {
+      "module": 5,
+      "titre": "Les schémas de boucle",
+      "fichier": "module-05.json",
+      "nombreExercices": 20
+    },
+    {
+      "module": 6,
+      "titre": "Algorithmes sur les nombres",
+      "fichier": "module-06.json",
+      "nombreExercices": 20
+    },
+    {
+      "module": 7,
+      "titre": "Les sous-programmes",
+      "fichier": "module-07.json",
+      "nombreExercices": 15
+    },
+    {
+      "module": 8,
+      "titre": "Les tableaux à une dimension",
+      "fichier": "module-08.json",
+      "nombreExercices": 25
+    },
+    {
+      "module": 9,
+      "titre": "Les chaînes de caractères",
+      "fichier": "module-09.json",
+      "nombreExercices": 15
+    },
+    {
+      "module": 10,
+      "titre": "Les matrices",
+      "fichier": "module-10.json",
+      "nombreExercices": 15
+    },
+    {
+      "module": 11,
+      "titre": "Les enregistrements",
+      "fichier": "module-11.json",
+      "nombreExercices": 10
+    },
+    {
+      "module": 12,
+      "titre": "Les fichiers",
+      "fichier": "module-12.json",
+      "nombreExercices": 10
+    },
+    {
+      "module": 13,
+      "titre": "La récursivité",
+      "fichier": "module-13.json",
+      "nombreExercices": 12
+    },
+    {
+      "module": 14,
+      "titre": "Listes chaînées, piles et files",
+      "fichier": "module-14.json",
+      "nombreExercices": 18
+    },
+    {
+      "module": 15,
+      "titre": "Problèmes de synthèse",
+      "fichier": "module-15.json",
+      "nombreExercices": 10
+    }
+  ]
+}

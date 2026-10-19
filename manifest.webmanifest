@@ -1,0 +1,16 @@
+{
+  "name": "LOGIKA",
+  "short_name": "logika.",
+  "description": "Apprendre à raisonner, un problème à la fois.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F5F3EB",
+  "theme_color": "#F5F3EB",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
